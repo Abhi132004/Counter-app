@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(215, 209, 201);
+}
+
+.heading {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 1rem;
+    /* border: 1px solid blue; */
+}
+
+.container {
+    display: flex;
+    height: 97.9vh;
+    width: 98.1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: rgb(209, 216, 214);
+    /* position: relative; */
+    display: flex;
+    /* background-color: aqua; */
+    border: 1px solid red;
+    justify-content: center;
+    height: 30rem;
+    width: 30rem;
+}
+
+#screen {
+    background-color: aqua;
+    position: relative;
+    display: flex;
+    top: 20px;
+    height: 130px;
+    width: 200px;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+}
+
+#number {
+    color: rgb(196, 26, 120);
+    font-size: 8rem;
+}
+
+.superbutton {
+    /* background-color: cadetblue; */
+    position: absolute;
+    height: 100px;
+    width: 30rem;
+    top: 370px;
+    /* border: 1px solid red; */
+}
+
+.incrementbtn button,
+.dicrementbtn button,
+.reset button {
+    background-color: rgb(215, 232, 227);
+    border-radius: 4px;
+    height: 50px;
+    width: 7rem;
+}
+
+.dicrementbtn {
+    /* position: absolute; */
+    display: flex;
+    justify-content: flex-end;
+    bottom: 20rem;
+    left: 32rem;
+    margin-top: -50px;
+    /* border-radius: 5px; */
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+
+/* .incrementbtn {
+    /* position: absolute; */
+
+
+/* display: flex; */
+
+
+/* justify-content: end; */
+
+
+/* bottom: 20rem;
+left: 32rem; */
+
+
+/* margin-top: 10px; */
+
+
+/* }
