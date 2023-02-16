@@ -22,7 +22,6 @@ body {
     /* position: relative; */
     display: flex;
     /* background-color: aqua; */
-    border: 1px solid red;
     justify-content: center;
     height: 30rem;
     width: 30rem;
